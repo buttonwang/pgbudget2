@@ -1,2 +1,3 @@
-pgbudget/bin/*
-pgbudget/obj/*
+pgbudget/bin/*/*
+pgbudget/obj/x86/Debug/*
+pgbudget/obj/x86/Debug/pgbudget.exe

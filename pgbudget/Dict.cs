@@ -13,7 +13,7 @@ namespace pgbudget
         public String DictSYName { get; set; }
         public String DictName {get; set;}
         public String DictCNName { get; set;}
-
+         
         private TreeNode findNode;
 
         private int _levelLength = 4;   //索引层级长度
