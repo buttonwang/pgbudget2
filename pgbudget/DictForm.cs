@@ -19,7 +19,7 @@ namespace pgbudget
 
         public String  selectName;
 
-        //1: 正常模式；2: 只读模式
+        //1: 正常模式；2: 只读模式 
         public int mode = 1;
 
         public DictForm(string dictName, int mode = 1)
