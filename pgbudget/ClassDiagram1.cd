@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pgbudget.Dict" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAEAkAAQAUAAAAAAAAAAAABAAAAQAAAACAAAAAA=</HashCode>
+      <FileName>Dict.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.DictForm" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCASAI1UgjBMhJuBLAmFYGISgAAagQA4gBANCAAJYFw=</HashCode>
+      <FileName>DictForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.FindProjectForm" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAAQDCQABiAAECEAAACAAQAEBCAAAAAAQAAAMQ=</HashCode>
+      <FileName>FindProjectForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.FleeForm" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAgACAAABAAAACCAAACADBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FleeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.MainForm" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JcCSU4EGQTBQYAAAAkGAOAACEIAIkQASCUAQAQBbAII=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.project" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HFwht6E7QSRoQOCxcA/JUmnpj+PqNgQ0AuBGFEDX88E=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.PGDataClassesDataContext" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABDAEFIgoBRMAQTCQmICAQNgGABQwUBEAwFAAQASoA=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.desyb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAgABAAgQAAAARUFIACABjCABAAkIEAAAAAAQEkA=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.cjsyb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAABAAgQAAAAREFIACABjCABAAkIAAAAAAAQAkA=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.sbsyb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAABIAAAhAAAQAEEAAABiCACQAEIABIDAAAUCHQ=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.zcsyb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAABIAAAhAAAQAEEAAABiCACQAEIABIDAAAUCHQ=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.deb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAg5GSRQAIooMhA4AGEgAwtjaxEQggAglAASQgGJJY=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.project_drawing" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAhAAABAAAIAAAAQAEAAAARiyAQBAAAEAAAAAIAAYA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.cjb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AjAgxAGJQgCYAKAgQBEGBAipiasAYm5IEAxEIUABBig=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.sbb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQgAIABKCAJoEAKQMEEAAHBrHogRAGAgJICBgxUGmA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.zcb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OAIkEIARICAJoECKUcEEwAHDjHqgRgGhiJIGBwxUSmA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.zjk" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAjYAABAgAAAARAQAEAAAABjaAFQAIAkAAAAAAUAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.zjk_item" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAMBAAgAEAAAQCFgAAAFjCAAAAIACAAQDEAQBkU=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.jzgc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qwgo53qN6ysOCarGxg3c6/3tzfkYhl2U7Ex6kMS15lE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pgbudget.Program" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.ZJKForm" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAEAAjAYAAKBAECEBAQCCJw7AQEAwHAHAQAAwBU=</HashCode>
+      <FileName>ZJKForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgbudget.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAIABAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="pgbudget.IDictTreeView" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDictTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="pgbudget.IDictIndex" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>PGDataClasses.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

@@ -1,1 +1,2 @@
-pgbudget/bin/Debug/*.exe
+pgbudget/bin/*
+pgbudget/obj/*

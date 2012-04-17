@@ -163,6 +163,7 @@
     <EmbeddedResource Include="ZJKForm.resx">
       <DependentUpon>ZJKForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="PGDataClasses.dbml.layout">
       <DependentUpon>PGDataClasses.dbml</DependentUpon>
       <SubType>Designer</SubType>
