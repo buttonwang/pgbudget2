@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
+
 namespace pgbudget
 {
     static class Program
@@ -14,8 +15,9 @@ namespace pgbudget
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.SetCompatibleTextRenderingDefault(false);            
+            Const.mainForm = new MainForm();
+            Application.Run(Const.mainForm);
         }
     }
 }

@@ -59,7 +59,7 @@ namespace pgbudget
         {
             
             if (DictSYName == "desyb")
-            {                
+            {
                 var node = new TreeNode { Text = "定额表", Tag = new desyb {NodeId=""} }; 
                  
                 var query = from desyb in db.desybs orderby desyb.NodeId select desyb;

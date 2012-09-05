@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace pgbudget
 {
@@ -15,41 +16,87 @@ namespace pgbudget
 
         private project p = null;
 
-        public MainForm()
-        {
-            InitializeComponent();
-            
-            InitProject();
-
-            InitJZGC();
-
-        }
+        private Budget budget = new Budget();
 
         private void MainForm_Load(object sender, EventArgs e)
         {
         }
 
-        private void InitProject()
+        public MainForm()
+        {
+            InitializeComponent();
+
+            //InitProject(0);
+
+            InitSetup();
+        }
+
+        //初始化工程信息
+        private void InitProject(int id)
         {
             p = (from project in db.projects
-                 where project.id == 5
+                 where project.id == id
                  select project).SingleOrDefault();
             if (p == null)
             {
-                p = new project { 工程编号 = "new project" };
+                p = new project { 工程编号 = "新建工程" };
                 db.projects.InsertOnSubmit(p);
             }
             ProjectPropertyGrid.SelectedObject = p;
         }
+        
+        //初始化设置
+        private void InitSetup()
+        {
+            InitYSTitle();
 
+            InitProjectItemDivision();
+        }
+
+        //初始化预算项目列标题
+        private void InitYSTitle()
+        {
+            ETreeGridJZ.ColCount = Const.ysColumns.Count() + 1;
+           
+            for (int i = 0; i < Const.ysColumns.Count(); i++)
+            {
+                ETreeGridJZ.set_CellString(i+1, 0, Const.ysColumns[i]);
+            }           
+        }
+
+        //初始化工程项目划分树
+        private void InitProjectItemDivision()
+        {
+            InitJZGC();
+            InitAZGC();
+            InitQTGC();
+        }
+
+        //初始化建筑工程项目划分
         private void InitJZGC()
         {
-            var jzgcList = from jzgc in db.jzgcs                 
-                 select new {mc=jzgc.mc, mc2=jzgc.dw, ID=jzgc.id, ParentID = jzgc.pid};
+            treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
+            treeViewJZIndex.ExpandAll();
+        }
 
-            treeList1.ParentFieldName = "ParentID"; 
-            treeList1.DataSource = jzgcList;
-            treeList1.ExpandAll();
+        //初始化安装工程项目划分
+        private void InitAZGC()
+        {
+            treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
+            treeViewJZIndex.ExpandAll();
+        }
+
+        //初始化其他工程项目划分
+        private void InitQTGC()
+        {
+            treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
+            treeViewJZIndex.ExpandAll();
+        }
+
+        //打开工程信息
+        public void OpenProject(int id)
+        {
+            InitProject(id);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -70,7 +117,6 @@ namespace pgbudget
                     fgForm.Dispose();
             }
         }
-
 
         private void 定额维护ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -149,6 +195,36 @@ namespace pgbudget
                 fleeForm.ShowDialog();
             }
             
+        }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void axEjunTreeGrid1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ETreeGridJZ_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeViewJZIndex_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void treeView2_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
         }
        
     }

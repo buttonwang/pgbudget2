@@ -70,6 +70,7 @@
             this.newbutton.TabIndex = 3;
             this.newbutton.Text = "新建";
             this.newbutton.UseVisualStyleBackColor = true;
+            this.newbutton.Click += new System.EventHandler(this.newbutton_Click);
             // 
             // cancelbutton
             // 
@@ -100,7 +101,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 4;
-            this.label1.Text = "过滤：";
+            this.label1.Text = "查找：";
             // 
             // findtextBox
             // 

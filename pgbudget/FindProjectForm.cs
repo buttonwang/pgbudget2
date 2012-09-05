@@ -38,7 +38,10 @@ namespace pgbudget
 
         private void openbutton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("open...");
+            project p = (project)projectBindingSource.Current;
+
+            Const.mainForm.OpenProject(p.id);
+            this.Close();
         }
         
         private void findtextBox_KeyDown(object sender, KeyEventArgs e)
@@ -73,8 +76,10 @@ namespace pgbudget
             }
         }
 
+        private void newbutton_Click(object sender, EventArgs e)
+        {
 
-
+        }
 
     }
 }

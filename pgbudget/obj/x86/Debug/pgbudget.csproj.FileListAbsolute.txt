@@ -15,3 +15,8 @@ D:\work\pgbudget\pgbudget\obj\x86\Debug\pgbudget.exe.licenses
 d:\work\pgbudget\pgbudget\bin\Debug\Ciloci.Flee.dll
 d:\work\pgbudget\pgbudget\obj\x86\Debug\pgbudget.FleeForm.resources
 d:\work\pgbudget\pgbudget\bin\Debug\NCalc.dll
+d:\work\pgbudget\pgbudget\bin\Debug\Interop.EjunGridCtrls.dll
+d:\work\pgbudget\pgbudget\bin\Debug\AxInterop.EjunGridCtrls.dll
+d:\work\pgbudget\pgbudget\obj\x86\Debug\Interop.EjunGridCtrls.dll
+d:\work\pgbudget\pgbudget\obj\x86\Debug\AxInterop.EjunGridCtrls.dll
+d:\work\pgbudget\pgbudget\obj\x86\Debug\pgbudget.csproj.ResolveComReference.cache

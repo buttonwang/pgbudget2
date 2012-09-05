@@ -214,10 +214,10 @@
             this.dataGridViewTextBoxColumn65,
             this.dataGridViewTextBoxColumn66});
             this.zcbDataGridView.DataSource = this.zcbBindingSource;
-            this.zcbDataGridView.Location = new System.Drawing.Point(3, 298);
+            this.zcbDataGridView.Location = new System.Drawing.Point(3, 276);
             this.zcbDataGridView.Name = "zcbDataGridView";
             this.zcbDataGridView.RowTemplate.Height = 23;
-            this.zcbDataGridView.Size = new System.Drawing.Size(652, 76);
+            this.zcbDataGridView.Size = new System.Drawing.Size(652, 113);
             this.zcbDataGridView.TabIndex = 3;
             this.zcbDataGridView.Visible = false;
             // 
@@ -376,7 +376,7 @@
             this.dataGridViewTextBoxColumn45,
             this.dataGridViewTextBoxColumn46});
             this.sbbDataGridView.DataSource = this.sbbBindingSource;
-            this.sbbDataGridView.Location = new System.Drawing.Point(3, 196);
+            this.sbbDataGridView.Location = new System.Drawing.Point(3, 185);
             this.sbbDataGridView.Name = "sbbDataGridView";
             this.sbbDataGridView.RowTemplate.Height = 23;
             this.sbbDataGridView.Size = new System.Drawing.Size(652, 85);
