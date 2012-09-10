@@ -170,7 +170,7 @@ namespace pgbudget
             finally
             {
                 if (zcForm != null)
-                    zcForm.Dispose();
+                    zcForm.Dispose(); 
             }
         }
 

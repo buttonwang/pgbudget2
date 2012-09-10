@@ -136,38 +136,38 @@
             this.保存ToolStripMenuItem,
             this.退出ToolStripMenuItem});
             this.工程管理ToolStripMenuItem.Name = "工程管理ToolStripMenuItem";
-            this.工程管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.工程管理ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.工程管理ToolStripMenuItem.Text = "工程管理";
             // 
             // 新建ToolStripMenuItem
             // 
             this.新建ToolStripMenuItem.Name = "新建ToolStripMenuItem";
-            this.新建ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.新建ToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.新建ToolStripMenuItem.Text = "新建";
             // 
             // 打开ToolStripMenuItem
             // 
             this.打开ToolStripMenuItem.Name = "打开ToolStripMenuItem";
-            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.打开ToolStripMenuItem.Text = "打开";
             this.打开ToolStripMenuItem.Click += new System.EventHandler(this.打开ToolStripMenuItem_Click);
             // 
             // 保存ToolStripMenuItem
             // 
             this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
-            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.保存ToolStripMenuItem.Text = "保存";
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             // 
             // 编辑ToolStripMenuItem
             // 
             this.编辑ToolStripMenuItem.Name = "编辑ToolStripMenuItem";
-            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.编辑ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.编辑ToolStripMenuItem.Text = "编辑";
             // 
             // 数据维护ToolStripMenuItem
@@ -179,41 +179,41 @@
             this.装材维护ToolStripMenuItem,
             this.组件库维护ToolStripMenuItem});
             this.数据维护ToolStripMenuItem.Name = "数据维护ToolStripMenuItem";
-            this.数据维护ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.数据维护ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.数据维护ToolStripMenuItem.Text = "数据维护";
             // 
             // 定额维护ToolStripMenuItem
             // 
             this.定额维护ToolStripMenuItem.Name = "定额维护ToolStripMenuItem";
-            this.定额维护ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.定额维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.定额维护ToolStripMenuItem.Text = "定额维护";
             this.定额维护ToolStripMenuItem.Click += new System.EventHandler(this.定额维护ToolStripMenuItem_Click);
             // 
             // 材机维护ToolStripMenuItem
             // 
             this.材机维护ToolStripMenuItem.Name = "材机维护ToolStripMenuItem";
-            this.材机维护ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.材机维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.材机维护ToolStripMenuItem.Text = "材机维护";
             this.材机维护ToolStripMenuItem.Click += new System.EventHandler(this.材机维护ToolStripMenuItem_Click);
             // 
             // 设备维护ToolStripMenuItem
             // 
             this.设备维护ToolStripMenuItem.Name = "设备维护ToolStripMenuItem";
-            this.设备维护ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.设备维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.设备维护ToolStripMenuItem.Text = "设备维护";
             this.设备维护ToolStripMenuItem.Click += new System.EventHandler(this.设备维护ToolStripMenuItem_Click);
             // 
             // 装材维护ToolStripMenuItem
             // 
             this.装材维护ToolStripMenuItem.Name = "装材维护ToolStripMenuItem";
-            this.装材维护ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.装材维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.装材维护ToolStripMenuItem.Text = "装材维护";
             this.装材维护ToolStripMenuItem.Click += new System.EventHandler(this.装材维护ToolStripMenuItem_Click_1);
             // 
             // 组件库维护ToolStripMenuItem
             // 
             this.组件库维护ToolStripMenuItem.Name = "组件库维护ToolStripMenuItem";
-            this.组件库维护ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.组件库维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.组件库维护ToolStripMenuItem.Text = "组件库维护";
             this.组件库维护ToolStripMenuItem.Click += new System.EventHandler(this.组件库维护ToolStripMenuItem_Click);
             // 
@@ -223,19 +223,19 @@
             this.选项ToolStripMenuItem,
             this.表达式引擎ToolStripMenuItem});
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
-            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.工具ToolStripMenuItem.Text = "工具";
             // 
             // 选项ToolStripMenuItem
             // 
             this.选项ToolStripMenuItem.Name = "选项ToolStripMenuItem";
-            this.选项ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.选项ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.选项ToolStripMenuItem.Text = "选项";
             // 
             // 表达式引擎ToolStripMenuItem
             // 
             this.表达式引擎ToolStripMenuItem.Name = "表达式引擎ToolStripMenuItem";
-            this.表达式引擎ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.表达式引擎ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.表达式引擎ToolStripMenuItem.Text = "表达式引擎";
             this.表达式引擎ToolStripMenuItem.Click += new System.EventHandler(this.表达式引擎ToolStripMenuItem_Click);
             // 
@@ -245,19 +245,19 @@
             this.使用帮助ToolStripMenuItem,
             this.关于ToolStripMenuItem});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // 使用帮助ToolStripMenuItem
             // 
             this.使用帮助ToolStripMenuItem.Name = "使用帮助ToolStripMenuItem";
-            this.使用帮助ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.使用帮助ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.使用帮助ToolStripMenuItem.Text = "使用帮助";
             // 
             // 关于ToolStripMenuItem
             // 
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
-            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.关于ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.关于ToolStripMenuItem.Text = "关于";
             // 
             // menuStrip
@@ -270,7 +270,7 @@
             this.帮助ToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1111, 25);
+            this.menuStrip.Size = new System.Drawing.Size(1111, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -287,7 +287,7 @@
             this.粘贴PToolStripButton,
             this.toolStripSeparator1,
             this.帮助LToolStripButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1111, 25);
             this.toolStrip1.TabIndex = 2;
@@ -379,9 +379,9 @@
             // 
             this.panel2.Controls.Add(this.MaintabControl);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 50);
+            this.panel2.Location = new System.Drawing.Point(0, 49);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1111, 493);
+            this.panel2.Size = new System.Drawing.Size(1111, 494);
             this.panel2.TabIndex = 3;
             // 
             // MaintabControl
@@ -397,17 +397,17 @@
             this.MaintabControl.Location = new System.Drawing.Point(0, 0);
             this.MaintabControl.Name = "MaintabControl";
             this.MaintabControl.SelectedIndex = 0;
-            this.MaintabControl.Size = new System.Drawing.Size(1111, 493);
+            this.MaintabControl.Size = new System.Drawing.Size(1111, 494);
             this.MaintabControl.TabIndex = 2;
             // 
             // tabPage1
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.Controls.Add(this.splitContainer1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 21);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage1.Size = new System.Drawing.Size(1103, 469);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "工程信息";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -426,7 +426,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
-            this.splitContainer1.Size = new System.Drawing.Size(1097, 461);
+            this.splitContainer1.Size = new System.Drawing.Size(1097, 463);
             this.splitContainer1.SplitterDistance = 363;
             this.splitContainer1.TabIndex = 1;
             // 
@@ -445,7 +445,7 @@
             this.ProjectPropertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ProjectPropertyGrid.Location = new System.Drawing.Point(0, 0);
             this.ProjectPropertyGrid.Name = "ProjectPropertyGrid";
-            this.ProjectPropertyGrid.Size = new System.Drawing.Size(363, 461);
+            this.ProjectPropertyGrid.Size = new System.Drawing.Size(363, 463);
             this.ProjectPropertyGrid.TabIndex = 2;
             // 
             // pictureBox1
@@ -454,7 +454,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(730, 461);
+            this.pictureBox1.Size = new System.Drawing.Size(730, 463);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -463,10 +463,10 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.panel1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 21);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage2.Size = new System.Drawing.Size(1103, 469);
             this.tabPage2.TabIndex = 7;
             this.tabPage2.Text = "工程量编辑";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -478,7 +478,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1097, 461);
+            this.panel1.Size = new System.Drawing.Size(1097, 463);
             this.panel1.TabIndex = 0;
             // 
             // tabControl1
@@ -490,16 +490,16 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 25);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1097, 436);
+            this.tabControl1.Size = new System.Drawing.Size(1097, 438);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.splitContainer2);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Location = new System.Drawing.Point(4, 21);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1089, 410);
+            this.tabPage7.Size = new System.Drawing.Size(1089, 413);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "建筑工程";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -517,7 +517,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.treeViewJZIndex);
-            this.splitContainer2.Size = new System.Drawing.Size(1083, 404);
+            this.splitContainer2.Size = new System.Drawing.Size(1083, 407);
             this.splitContainer2.SplitterDistance = 881;
             this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 1;
@@ -528,7 +528,7 @@
             this.ETreeGridJZ.Location = new System.Drawing.Point(0, 0);
             this.ETreeGridJZ.Name = "ETreeGridJZ";
             this.ETreeGridJZ.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ETreeGridJZ.OcxState")));
-            this.ETreeGridJZ.Size = new System.Drawing.Size(881, 404);
+            this.ETreeGridJZ.Size = new System.Drawing.Size(881, 407);
             this.ETreeGridJZ.TabIndex = 1;
             this.ETreeGridJZ.Enter += new System.EventHandler(this.ETreeGridJZ_Enter);
             // 
@@ -537,17 +537,17 @@
             this.treeViewJZIndex.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewJZIndex.Location = new System.Drawing.Point(0, 0);
             this.treeViewJZIndex.Name = "treeViewJZIndex";
-            this.treeViewJZIndex.Size = new System.Drawing.Size(197, 404);
+            this.treeViewJZIndex.Size = new System.Drawing.Size(197, 407);
             this.treeViewJZIndex.TabIndex = 0;
             this.treeViewJZIndex.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewJZIndex_AfterSelect);
             // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.splitContainer3);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Location = new System.Drawing.Point(4, 21);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1089, 410);
+            this.tabPage8.Size = new System.Drawing.Size(1089, 413);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "安装工程";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -565,7 +565,7 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.treeViewAZIndex);
-            this.splitContainer3.Size = new System.Drawing.Size(1083, 404);
+            this.splitContainer3.Size = new System.Drawing.Size(1083, 407);
             this.splitContainer3.SplitterDistance = 881;
             this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 2;
@@ -576,7 +576,7 @@
             this.ETreeGridAZ.Location = new System.Drawing.Point(0, 0);
             this.ETreeGridAZ.Name = "ETreeGridAZ";
             this.ETreeGridAZ.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ETreeGridAZ.OcxState")));
-            this.ETreeGridAZ.Size = new System.Drawing.Size(881, 404);
+            this.ETreeGridAZ.Size = new System.Drawing.Size(881, 407);
             this.ETreeGridAZ.TabIndex = 1;
             // 
             // treeViewAZIndex
@@ -584,16 +584,16 @@
             this.treeViewAZIndex.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewAZIndex.Location = new System.Drawing.Point(0, 0);
             this.treeViewAZIndex.Name = "treeViewAZIndex";
-            this.treeViewAZIndex.Size = new System.Drawing.Size(197, 404);
+            this.treeViewAZIndex.Size = new System.Drawing.Size(197, 407);
             this.treeViewAZIndex.TabIndex = 0;
             // 
             // tabPage9
             // 
             this.tabPage9.Controls.Add(this.splitContainer4);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Location = new System.Drawing.Point(4, 21);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1089, 410);
+            this.tabPage9.Size = new System.Drawing.Size(1089, 413);
             this.tabPage9.TabIndex = 2;
             this.tabPage9.Text = "拆除工程";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -611,7 +611,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.treeViewQTIndex);
-            this.splitContainer4.Size = new System.Drawing.Size(1083, 404);
+            this.splitContainer4.Size = new System.Drawing.Size(1083, 407);
             this.splitContainer4.SplitterDistance = 881;
             this.splitContainer4.SplitterWidth = 5;
             this.splitContainer4.TabIndex = 2;
@@ -622,7 +622,7 @@
             this.ETreeGridQT.Location = new System.Drawing.Point(0, 0);
             this.ETreeGridQT.Name = "ETreeGridQT";
             this.ETreeGridQT.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ETreeGridQT.OcxState")));
-            this.ETreeGridQT.Size = new System.Drawing.Size(881, 404);
+            this.ETreeGridQT.Size = new System.Drawing.Size(881, 407);
             this.ETreeGridQT.TabIndex = 1;
             // 
             // treeViewQTIndex
@@ -630,7 +630,7 @@
             this.treeViewQTIndex.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewQTIndex.Location = new System.Drawing.Point(0, 0);
             this.treeViewQTIndex.Name = "treeViewQTIndex";
-            this.treeViewQTIndex.Size = new System.Drawing.Size(197, 404);
+            this.treeViewQTIndex.Size = new System.Drawing.Size(197, 407);
             this.treeViewQTIndex.TabIndex = 0;
             this.treeViewQTIndex.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
             // 
@@ -682,50 +682,50 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 21);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1059, 463);
+            this.tabPage3.Size = new System.Drawing.Size(1103, 469);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "材机分析";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Location = new System.Drawing.Point(4, 21);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1059, 463);
+            this.tabPage4.Size = new System.Drawing.Size(1103, 469);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "取费汇总";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage5
             // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Location = new System.Drawing.Point(4, 21);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1059, 463);
+            this.tabPage5.Size = new System.Drawing.Size(1103, 469);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "其他费用";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Location = new System.Drawing.Point(4, 21);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1059, 463);
+            this.tabPage6.Size = new System.Drawing.Size(1103, 469);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "总算表";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // tabPage10
             // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Location = new System.Drawing.Point(4, 21);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1059, 463);
+            this.tabPage10.Size = new System.Drawing.Size(1103, 469);
             this.tabPage10.TabIndex = 6;
             this.tabPage10.Text = "报表输出";
             this.tabPage10.UseVisualStyleBackColor = true;
