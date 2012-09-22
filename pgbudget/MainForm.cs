@@ -51,6 +51,12 @@ namespace pgbudget
             InitYSTitle();
 
             InitProjectItemDivision();
+
+            //EGridTotal.LoadFromExcel("工程模板-总算表.xls", 0);
+            //eWorkbook.NewSheet("sheeet1");
+            //eWorkbook.GetSheetByName("sheeet1").LoadFromExcel("工程模板-总算表.xls", 0);
+            eWorkbook.LoadFromExcel("工程模板2.xls");
+
         }
 
         //初始化预算项目列标题
@@ -82,15 +88,15 @@ namespace pgbudget
         //初始化安装工程项目划分
         private void InitAZGC()
         {
-            treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
-            treeViewJZIndex.ExpandAll();
+            //treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
+            //treeViewJZIndex.ExpandAll();
         }
 
         //初始化其他工程项目划分
         private void InitQTGC()
         {
-            treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
-            treeViewJZIndex.ExpandAll();
+            //treeViewJZIndex.Nodes.Add(budget.IndexTree("jz"));
+            //treeViewJZIndex.ExpandAll();
         }
 
         //打开工程信息
@@ -197,35 +203,13 @@ namespace pgbudget
             
         }
 
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        private void 模板管理ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void axEjunTreeGrid1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ETreeGridJZ_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void treeViewJZIndex_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-
-        }
-
-        private void treeView2_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-
-        }
+            using (TemplateForm templateForm = new TemplateForm())
+            {
+                templateForm.ShowDialog();
+            }
+        }       
        
     }
 }

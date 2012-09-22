@@ -199,5 +199,23 @@ namespace pgbudget
             }
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (findzjkText.Text.Trim() != "")
+            {
+                zjkBindingSource.DataSource = (from zjk in db.zjks 
+                                                where (
+                                                zjk.name.Contains(findzjkText.Text)
+                                                )
+                                               orderby zjk.created_time descending
+                                               select zjk);
+            }
+            else
+            {
+                zjkBindingSource.DataSource = (from zjk in db.zjks 
+                                               orderby zjk.created_time descending select zjk);
+            }
+        }
+
     }
 }

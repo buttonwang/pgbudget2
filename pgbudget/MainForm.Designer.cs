@@ -42,6 +42,7 @@
             this.设备维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.装材维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.组件库维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.模板管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.选项ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.表达式引擎ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,6 +68,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.ProjectPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.eWorkbook = new AxEjunGridCtrls.AxEjunWorkbook();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -88,9 +91,11 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.axEjunTreeGrid1 = new AxEjunGridCtrls.AxEjunTreeGrid();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.axEjunTreeGrid2 = new AxEjunGridCtrls.AxEjunTreeGrid();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.axEjunTreeGrid3 = new AxEjunGridCtrls.AxEjunTreeGrid();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.projectBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.menuStrip.SuspendLayout();
@@ -103,6 +108,8 @@
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eWorkbook)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -125,6 +132,12 @@
             this.splitContainer4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ETreeGridQT)).BeginInit();
             this.toolStrip2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axEjunTreeGrid1)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axEjunTreeGrid2)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axEjunTreeGrid3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.projectBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -177,7 +190,8 @@
             this.材机维护ToolStripMenuItem,
             this.设备维护ToolStripMenuItem,
             this.装材维护ToolStripMenuItem,
-            this.组件库维护ToolStripMenuItem});
+            this.组件库维护ToolStripMenuItem,
+            this.模板管理ToolStripMenuItem});
             this.数据维护ToolStripMenuItem.Name = "数据维护ToolStripMenuItem";
             this.数据维护ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.数据维护ToolStripMenuItem.Text = "数据维护";
@@ -185,37 +199,44 @@
             // 定额维护ToolStripMenuItem
             // 
             this.定额维护ToolStripMenuItem.Name = "定额维护ToolStripMenuItem";
-            this.定额维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.定额维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.定额维护ToolStripMenuItem.Text = "定额维护";
             this.定额维护ToolStripMenuItem.Click += new System.EventHandler(this.定额维护ToolStripMenuItem_Click);
             // 
             // 材机维护ToolStripMenuItem
             // 
             this.材机维护ToolStripMenuItem.Name = "材机维护ToolStripMenuItem";
-            this.材机维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.材机维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.材机维护ToolStripMenuItem.Text = "材机维护";
             this.材机维护ToolStripMenuItem.Click += new System.EventHandler(this.材机维护ToolStripMenuItem_Click);
             // 
             // 设备维护ToolStripMenuItem
             // 
             this.设备维护ToolStripMenuItem.Name = "设备维护ToolStripMenuItem";
-            this.设备维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.设备维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.设备维护ToolStripMenuItem.Text = "设备维护";
             this.设备维护ToolStripMenuItem.Click += new System.EventHandler(this.设备维护ToolStripMenuItem_Click);
             // 
             // 装材维护ToolStripMenuItem
             // 
             this.装材维护ToolStripMenuItem.Name = "装材维护ToolStripMenuItem";
-            this.装材维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.装材维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.装材维护ToolStripMenuItem.Text = "装材维护";
             this.装材维护ToolStripMenuItem.Click += new System.EventHandler(this.装材维护ToolStripMenuItem_Click_1);
             // 
             // 组件库维护ToolStripMenuItem
             // 
             this.组件库维护ToolStripMenuItem.Name = "组件库维护ToolStripMenuItem";
-            this.组件库维护ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.组件库维护ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.组件库维护ToolStripMenuItem.Text = "组件库维护";
             this.组件库维护ToolStripMenuItem.Click += new System.EventHandler(this.组件库维护ToolStripMenuItem_Click);
+            // 
+            // 模板管理ToolStripMenuItem
+            // 
+            this.模板管理ToolStripMenuItem.Name = "模板管理ToolStripMenuItem";
+            this.模板管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.模板管理ToolStripMenuItem.Text = "模板管理";
+            this.模板管理ToolStripMenuItem.Click += new System.EventHandler(this.模板管理ToolStripMenuItem_Click);
             // 
             // 工具ToolStripMenuItem
             // 
@@ -387,11 +408,11 @@
             // MaintabControl
             // 
             this.MaintabControl.Controls.Add(this.tabPage1);
+            this.MaintabControl.Controls.Add(this.tabPage6);
             this.MaintabControl.Controls.Add(this.tabPage2);
             this.MaintabControl.Controls.Add(this.tabPage3);
             this.MaintabControl.Controls.Add(this.tabPage4);
             this.MaintabControl.Controls.Add(this.tabPage5);
-            this.MaintabControl.Controls.Add(this.tabPage6);
             this.MaintabControl.Controls.Add(this.tabPage10);
             this.MaintabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MaintabControl.Location = new System.Drawing.Point(0, 0);
@@ -427,7 +448,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
             this.splitContainer1.Size = new System.Drawing.Size(1097, 463);
-            this.splitContainer1.SplitterDistance = 363;
+            this.splitContainer1.SplitterDistance = 262;
             this.splitContainer1.TabIndex = 1;
             // 
             // button1
@@ -445,7 +466,7 @@
             this.ProjectPropertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ProjectPropertyGrid.Location = new System.Drawing.Point(0, 0);
             this.ProjectPropertyGrid.Name = "ProjectPropertyGrid";
-            this.ProjectPropertyGrid.Size = new System.Drawing.Size(363, 463);
+            this.ProjectPropertyGrid.Size = new System.Drawing.Size(262, 463);
             this.ProjectPropertyGrid.TabIndex = 2;
             // 
             // pictureBox1
@@ -454,11 +475,30 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(730, 463);
+            this.pictureBox1.Size = new System.Drawing.Size(831, 463);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.eWorkbook);
+            this.tabPage6.Location = new System.Drawing.Point(4, 21);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1103, 469);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "工程编制";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // eWorkbook
+            // 
+            this.eWorkbook.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.eWorkbook.Location = new System.Drawing.Point(3, 3);
+            this.eWorkbook.Name = "eWorkbook";
+            this.eWorkbook.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("eWorkbook.OcxState")));
+            this.eWorkbook.Size = new System.Drawing.Size(1097, 463);
+            this.eWorkbook.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -530,7 +570,6 @@
             this.ETreeGridJZ.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ETreeGridJZ.OcxState")));
             this.ETreeGridJZ.Size = new System.Drawing.Size(881, 407);
             this.ETreeGridJZ.TabIndex = 1;
-            this.ETreeGridJZ.Enter += new System.EventHandler(this.ETreeGridJZ_Enter);
             // 
             // treeViewJZIndex
             // 
@@ -539,7 +578,6 @@
             this.treeViewJZIndex.Name = "treeViewJZIndex";
             this.treeViewJZIndex.Size = new System.Drawing.Size(197, 407);
             this.treeViewJZIndex.TabIndex = 0;
-            this.treeViewJZIndex.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewJZIndex_AfterSelect);
             // 
             // tabPage8
             // 
@@ -632,7 +670,6 @@
             this.treeViewQTIndex.Name = "treeViewQTIndex";
             this.treeViewQTIndex.Size = new System.Drawing.Size(197, 407);
             this.treeViewQTIndex.TabIndex = 0;
-            this.treeViewQTIndex.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
             // 
             // toolStrip2
             // 
@@ -678,10 +715,10 @@
             // 
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
-            this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.axEjunTreeGrid1);
             this.tabPage3.Location = new System.Drawing.Point(4, 21);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -690,8 +727,18 @@
             this.tabPage3.Text = "材机分析";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // axEjunTreeGrid1
+            // 
+            this.axEjunTreeGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axEjunTreeGrid1.Location = new System.Drawing.Point(3, 3);
+            this.axEjunTreeGrid1.Name = "axEjunTreeGrid1";
+            this.axEjunTreeGrid1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axEjunTreeGrid1.OcxState")));
+            this.axEjunTreeGrid1.Size = new System.Drawing.Size(1097, 463);
+            this.axEjunTreeGrid1.TabIndex = 2;
+            // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.axEjunTreeGrid2);
             this.tabPage4.Location = new System.Drawing.Point(4, 21);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -700,8 +747,18 @@
             this.tabPage4.Text = "取费汇总";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // axEjunTreeGrid2
+            // 
+            this.axEjunTreeGrid2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axEjunTreeGrid2.Location = new System.Drawing.Point(3, 3);
+            this.axEjunTreeGrid2.Name = "axEjunTreeGrid2";
+            this.axEjunTreeGrid2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axEjunTreeGrid2.OcxState")));
+            this.axEjunTreeGrid2.Size = new System.Drawing.Size(1097, 463);
+            this.axEjunTreeGrid2.TabIndex = 2;
+            // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.axEjunTreeGrid3);
             this.tabPage5.Location = new System.Drawing.Point(4, 21);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -710,15 +767,14 @@
             this.tabPage5.Text = "其他费用";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // axEjunTreeGrid3
             // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 21);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1103, 469);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "总算表";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.axEjunTreeGrid3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axEjunTreeGrid3.Location = new System.Drawing.Point(3, 3);
+            this.axEjunTreeGrid3.Name = "axEjunTreeGrid3";
+            this.axEjunTreeGrid3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axEjunTreeGrid3.OcxState")));
+            this.axEjunTreeGrid3.Size = new System.Drawing.Size(1097, 463);
+            this.axEjunTreeGrid3.TabIndex = 2;
             // 
             // tabPage10
             // 
@@ -760,6 +816,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.eWorkbook)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -784,6 +842,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.ETreeGridQT)).EndInit();
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axEjunTreeGrid1)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axEjunTreeGrid2)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axEjunTreeGrid3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.projectBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -855,6 +919,11 @@
         private System.Windows.Forms.SplitContainer splitContainer4;
         private AxEjunGridCtrls.AxEjunTreeGrid ETreeGridQT;
         private System.Windows.Forms.TreeView treeViewQTIndex;
+        private AxEjunGridCtrls.AxEjunTreeGrid axEjunTreeGrid1;
+        private AxEjunGridCtrls.AxEjunTreeGrid axEjunTreeGrid2;
+        private AxEjunGridCtrls.AxEjunTreeGrid axEjunTreeGrid3;
+        private AxEjunGridCtrls.AxEjunWorkbook eWorkbook;
+        private System.Windows.Forms.ToolStripMenuItem 模板管理ToolStripMenuItem;
 
 
     }

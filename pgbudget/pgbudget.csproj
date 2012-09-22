@@ -106,6 +106,12 @@
     <Compile Include="FleeForm.Designer.cs">
       <DependentUpon>FleeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateForm.Designer.cs">
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="IDictTreeView.cs" />
     <Compile Include="PGDataClasses.cs">
       <DependentUpon>PGDataClasses.dbml</DependentUpon>
@@ -160,6 +166,9 @@
     <EmbeddedResource Include="FleeForm.resx">
       <DependentUpon>FleeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TemplateForm.resx">
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -189,6 +198,7 @@
     <None Include="Properties\DataSources\desyb.datasource" />
     <None Include="Properties\DataSources\project.datasource" />
     <None Include="Properties\DataSources\sbb.datasource" />
+    <None Include="Properties\DataSources\template.datasource" />
     <None Include="Properties\DataSources\zcb.datasource" />
     <None Include="Properties\DataSources\zjk.datasource" />
     <None Include="Properties\DataSources\zjk_item.datasource" />

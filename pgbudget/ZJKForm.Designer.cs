@@ -38,8 +38,9 @@
             this.zjkDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dw = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.zjkBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sbpanel = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -74,6 +75,8 @@
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.zjk_item3BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.findzjkText = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -99,6 +102,8 @@
             // 
             this.panel1.AllowDrop = true;
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.findzjkText);
             this.panel1.Controls.Add(this.closebutton);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -106,13 +111,13 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(780, 51);
+            this.panel1.Size = new System.Drawing.Size(909, 51);
             this.panel1.TabIndex = 1;
             // 
             // closebutton
             // 
             this.closebutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.closebutton.Location = new System.Drawing.Point(693, 12);
+            this.closebutton.Location = new System.Drawing.Point(822, 12);
             this.closebutton.Name = "closebutton";
             this.closebutton.Size = new System.Drawing.Size(75, 23);
             this.closebutton.TabIndex = 3;
@@ -122,7 +127,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(207, 12);
+            this.button3.Location = new System.Drawing.Point(624, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -132,7 +137,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(106, 12);
+            this.button2.Location = new System.Drawing.Point(518, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -142,7 +147,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(403, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -167,8 +172,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.depanel);
             this.splitContainer1.Panel2.Controls.Add(this.zcpanel);
             this.splitContainer1.Panel2.Resize += new System.EventHandler(this.splitContainer1_Panel2_Resize);
-            this.splitContainer1.Size = new System.Drawing.Size(780, 487);
-            this.splitContainer1.SplitterDistance = 259;
+            this.splitContainer1.Size = new System.Drawing.Size(909, 487);
+            this.splitContainer1.SplitterDistance = 365;
             this.splitContainer1.TabIndex = 2;
             // 
             // zjkDataGridView
@@ -181,13 +186,14 @@
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4});
+            this.dataGridViewTextBoxColumn4,
+            this.dw});
             this.zjkDataGridView.DataSource = this.zjkBindingSource;
             this.zjkDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.zjkDataGridView.Location = new System.Drawing.Point(0, 0);
             this.zjkDataGridView.Name = "zjkDataGridView";
             this.zjkDataGridView.RowTemplate.Height = 23;
-            this.zjkDataGridView.Size = new System.Drawing.Size(259, 487);
+            this.zjkDataGridView.Size = new System.Drawing.Size(365, 487);
             this.zjkDataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn1
@@ -202,14 +208,26 @@
             this.dataGridViewTextBoxColumn2.DataPropertyName = "name";
             this.dataGridViewTextBoxColumn2.HeaderText = "组件名";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 200;
+            this.dataGridViewTextBoxColumn2.Width = 120;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "type";
-            this.dataGridViewTextBoxColumn3.HeaderText = "type";
+            this.dataGridViewTextBoxColumn3.HeaderText = "类别";
+            this.dataGridViewTextBoxColumn3.Items.AddRange(new object[] {
+            "变压器",
+            "表计",
+            "电杆",
+            "架空线路部分",
+            "线材",
+            "真空开关",
+            "隔离开关",
+            "低压互感器",
+            "高压计量",
+            "高压电缆"});
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Visible = false;
+            this.dataGridViewTextBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // dataGridViewTextBoxColumn4
             // 
@@ -217,6 +235,12 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "created_time";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.Visible = false;
+            // 
+            // dw
+            // 
+            this.dw.DataPropertyName = "dw";
+            this.dw.HeaderText = "单位";
+            this.dw.Name = "dw";
             // 
             // zjkBindingSource
             // 
@@ -230,7 +254,7 @@
             this.sbpanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sbpanel.Location = new System.Drawing.Point(0, 160);
             this.sbpanel.Name = "sbpanel";
-            this.sbpanel.Size = new System.Drawing.Size(517, 169);
+            this.sbpanel.Size = new System.Drawing.Size(540, 169);
             this.sbpanel.TabIndex = 3;
             // 
             // panel6
@@ -240,7 +264,7 @@
             this.panel6.Controls.Add(this.button7);
             this.panel6.Controls.Add(this.button8);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(410, 0);
+            this.panel6.Location = new System.Drawing.Point(433, 0);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(107, 169);
             this.panel6.TabIndex = 3;
@@ -284,7 +308,7 @@
             this.zjk_item2DataGridView.ReadOnly = true;
             this.zjk_item2DataGridView.RowTemplate.Height = 23;
             this.zjk_item2DataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.zjk_item2DataGridView.Size = new System.Drawing.Size(517, 169);
+            this.zjk_item2DataGridView.Size = new System.Drawing.Size(540, 169);
             this.zjk_item2DataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn10
@@ -337,7 +361,7 @@
             this.depanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.depanel.Location = new System.Drawing.Point(0, 0);
             this.depanel.Name = "depanel";
-            this.depanel.Size = new System.Drawing.Size(517, 160);
+            this.depanel.Size = new System.Drawing.Size(540, 160);
             this.depanel.TabIndex = 0;
             // 
             // panel5
@@ -347,7 +371,7 @@
             this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.button5);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(410, 0);
+            this.panel5.Location = new System.Drawing.Point(433, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(107, 160);
             this.panel5.TabIndex = 2;
@@ -391,7 +415,7 @@
             this.zjk_item1DataGridView.ReadOnly = true;
             this.zjk_item1DataGridView.RowTemplate.Height = 23;
             this.zjk_item1DataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.zjk_item1DataGridView.Size = new System.Drawing.Size(517, 160);
+            this.zjk_item1DataGridView.Size = new System.Drawing.Size(540, 160);
             this.zjk_item1DataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn5
@@ -444,7 +468,7 @@
             this.zcpanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.zcpanel.Location = new System.Drawing.Point(0, 329);
             this.zcpanel.Name = "zcpanel";
-            this.zcpanel.Size = new System.Drawing.Size(517, 158);
+            this.zcpanel.Size = new System.Drawing.Size(540, 158);
             this.zcpanel.TabIndex = 1;
             // 
             // panel7
@@ -454,7 +478,7 @@
             this.panel7.Controls.Add(this.button9);
             this.panel7.Controls.Add(this.button10);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(410, 0);
+            this.panel7.Location = new System.Drawing.Point(433, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(107, 158);
             this.panel7.TabIndex = 3;
@@ -498,7 +522,7 @@
             this.zjk_item3DataGridView.ReadOnly = true;
             this.zjk_item3DataGridView.RowTemplate.Height = 23;
             this.zjk_item3DataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.zjk_item3DataGridView.Size = new System.Drawing.Size(517, 158);
+            this.zjk_item3DataGridView.Size = new System.Drawing.Size(540, 158);
             this.zjk_item3DataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn15
@@ -544,11 +568,28 @@
             // 
             this.zjk_item3BindingSource.DataSource = typeof(pgbudget.zjk_item);
             // 
+            // findzjkText
+            // 
+            this.findzjkText.Location = new System.Drawing.Point(136, 14);
+            this.findzjkText.Name = "findzjkText";
+            this.findzjkText.Size = new System.Drawing.Size(146, 21);
+            this.findzjkText.TabIndex = 4;
+            this.findzjkText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(29, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 12);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "输入组件名查找：";
+            // 
             // ZJKForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 538);
+            this.ClientSize = new System.Drawing.Size(909, 538);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.panel1);
             this.Name = "ZJKForm";
@@ -556,6 +597,7 @@
             this.Text = "组件库";
             this.Load += new System.EventHandler(this.ZJKForm_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -609,10 +651,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.DataGridView zjk_item2DataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
@@ -628,6 +666,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dw;
+        private System.Windows.Forms.TextBox findzjkText;
+        private System.Windows.Forms.Label label1;
 
     }
 }
