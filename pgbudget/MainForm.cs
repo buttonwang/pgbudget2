@@ -110,6 +110,14 @@ namespace pgbudget
             db.SubmitChanges();
         }
 
+        private void 新建ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (NewProjectForm newProjectForm = new NewProjectForm())
+            {
+                newProjectForm.ShowDialog();
+            }
+        }
+
         private void 打开ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FindProjectForm fgForm = new FindProjectForm();
@@ -209,7 +217,23 @@ namespace pgbudget
             {
                 templateForm.ShowDialog();
             }
-        }       
+        }
+
+        private void 属性维护ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (PropertyForm propertyForm = new PropertyForm())
+            {
+                propertyForm.ShowDialog();
+            }
+        }
+
+        private void 关于ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (AboutBox aboutbox = new AboutBox())
+            {
+                aboutbox.ShowDialog();
+            }
+        }
        
     }
 }

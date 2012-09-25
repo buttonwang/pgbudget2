@@ -91,7 +91,19 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Budget.cs" />
+    <Compile Include="ChoosePropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChoosePropertyForm.Designer.cs">
+      <DependentUpon>ChoosePropertyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Const.cs" />
     <Compile Include="Dict.cs" />
     <Compile Include="FindProjectForm.cs">
@@ -105,6 +117,18 @@
     </Compile>
     <Compile Include="FleeForm.Designer.cs">
       <DependentUpon>FleeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewProjectForm.Designer.cs">
+      <DependentUpon>NewProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyForm.Designer.cs">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TemplateForm.cs">
       <SubType>Form</SubType>
@@ -155,6 +179,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChoosePropertyForm.resx">
+      <DependentUpon>ChoosePropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DictForm.resx">
       <DependentUpon>DictForm.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -165,6 +195,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FleeForm.resx">
       <DependentUpon>FleeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProjectForm.resx">
+      <DependentUpon>NewProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyForm.resx">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TemplateForm.resx">
       <DependentUpon>TemplateForm.cs</DependentUpon>
@@ -196,6 +232,7 @@
     <None Include="Properties\DataSources\cjb.datasource" />
     <None Include="Properties\DataSources\deb.datasource" />
     <None Include="Properties\DataSources\desyb.datasource" />
+    <None Include="Properties\DataSources\pgproperty.datasource" />
     <None Include="Properties\DataSources\project.datasource" />
     <None Include="Properties\DataSources\sbb.datasource" />
     <None Include="Properties\DataSources\template.datasource" />
