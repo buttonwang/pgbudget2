@@ -54,8 +54,16 @@ namespace pgbudget
         private void button3_Click(object sender, EventArgs e)
         {
             var tmlName = ((pgbudget.template)templateBindingSource.Current).name;
-            tempWorkBook.LoadFromFile2("./template/" + tmlName + ".tml", true);
 
+            try
+            {
+                tempWorkBook.LoadFromFile2("./template/" + tmlName + ".tml", true);
+            }
+            catch
+            {
+                MessageBox.Show("模板文件找不到！");
+            }
+                      
             //LoadProperty();
         }
 

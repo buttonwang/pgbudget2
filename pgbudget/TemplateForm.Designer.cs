@@ -247,7 +247,7 @@
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(81, 22);
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(84, 22);
             this.toolStripSplitButton1.Text = "单元格类型";
             // 
             // 常规ToolStripMenuItem
@@ -310,6 +310,7 @@
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.panel1);
             this.Name = "TemplateForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "模板管理";
             this.Load += new System.EventHandler(this.TemplateForm_Load);
             this.panel1.ResumeLayout(false);
