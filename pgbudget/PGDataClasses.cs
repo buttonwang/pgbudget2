@@ -2,6 +2,9 @@ using System;
 
 namespace pgbudget
 {
+    partial class pgproperty
+    {
+    }
 
     public interface IDictIndex
     {

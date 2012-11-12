@@ -55,7 +55,7 @@ namespace pgbudget
             //EGridTotal.LoadFromExcel("工程模板-总算表.xls", 0);
             //eWorkbook.NewSheet("sheeet1");
             //eWorkbook.GetSheetByName("sheeet1").LoadFromExcel("工程模板-总算表.xls", 0);
-            eWorkbook.LoadFromExcel("工程模板2.xls");
+            //eWorkbook.LoadFromExcel("工程模板2.xls");
 
         }
 
