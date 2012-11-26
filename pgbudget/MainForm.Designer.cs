@@ -497,7 +497,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage6.Size = new System.Drawing.Size(1103, 468);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "工程编制";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -508,7 +508,7 @@
             this.eWorkbook.Location = new System.Drawing.Point(3, 3);
             this.eWorkbook.Name = "eWorkbook";
             this.eWorkbook.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("eWorkbook.OcxState")));
-            this.eWorkbook.Size = new System.Drawing.Size(1097, 461);
+            this.eWorkbook.Size = new System.Drawing.Size(1097, 462);
             this.eWorkbook.TabIndex = 0;
             // 
             // tabPage2
@@ -517,7 +517,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage2.Size = new System.Drawing.Size(1103, 468);
             this.tabPage2.TabIndex = 7;
             this.tabPage2.Text = "工程量编辑";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -529,7 +529,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1097, 461);
+            this.panel1.Size = new System.Drawing.Size(1097, 462);
             this.panel1.TabIndex = 0;
             // 
             // tabControl1
@@ -541,7 +541,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 25);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1097, 436);
+            this.tabControl1.Size = new System.Drawing.Size(1097, 437);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage7
@@ -550,7 +550,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1089, 410);
+            this.tabPage7.Size = new System.Drawing.Size(1089, 411);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "建筑工程";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -568,7 +568,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.treeViewJZIndex);
-            this.splitContainer2.Size = new System.Drawing.Size(1083, 404);
+            this.splitContainer2.Size = new System.Drawing.Size(1083, 405);
             this.splitContainer2.SplitterDistance = 881;
             this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 1;
@@ -579,7 +579,7 @@
             this.ETreeGridJZ.Location = new System.Drawing.Point(0, 0);
             this.ETreeGridJZ.Name = "ETreeGridJZ";
             this.ETreeGridJZ.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ETreeGridJZ.OcxState")));
-            this.ETreeGridJZ.Size = new System.Drawing.Size(881, 404);
+            this.ETreeGridJZ.Size = new System.Drawing.Size(881, 405);
             this.ETreeGridJZ.TabIndex = 1;
             // 
             // treeViewJZIndex
@@ -587,7 +587,7 @@
             this.treeViewJZIndex.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewJZIndex.Location = new System.Drawing.Point(0, 0);
             this.treeViewJZIndex.Name = "treeViewJZIndex";
-            this.treeViewJZIndex.Size = new System.Drawing.Size(197, 404);
+            this.treeViewJZIndex.Size = new System.Drawing.Size(197, 405);
             this.treeViewJZIndex.TabIndex = 0;
             // 
             // tabPage8
@@ -596,7 +596,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1089, 410);
+            this.tabPage8.Size = new System.Drawing.Size(1089, 411);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "安装工程";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -642,7 +642,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1089, 410);
+            this.tabPage9.Size = new System.Drawing.Size(1089, 411);
             this.tabPage9.TabIndex = 2;
             this.tabPage9.Text = "拆除工程";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -733,7 +733,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage3.Size = new System.Drawing.Size(1103, 468);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "材机分析";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -744,7 +744,7 @@
             this.axEjunTreeGrid1.Location = new System.Drawing.Point(3, 3);
             this.axEjunTreeGrid1.Name = "axEjunTreeGrid1";
             this.axEjunTreeGrid1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axEjunTreeGrid1.OcxState")));
-            this.axEjunTreeGrid1.Size = new System.Drawing.Size(1097, 461);
+            this.axEjunTreeGrid1.Size = new System.Drawing.Size(1097, 462);
             this.axEjunTreeGrid1.TabIndex = 2;
             // 
             // tabPage4
@@ -753,7 +753,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage4.Size = new System.Drawing.Size(1103, 468);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "取费汇总";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -764,7 +764,7 @@
             this.axEjunTreeGrid2.Location = new System.Drawing.Point(3, 3);
             this.axEjunTreeGrid2.Name = "axEjunTreeGrid2";
             this.axEjunTreeGrid2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axEjunTreeGrid2.OcxState")));
-            this.axEjunTreeGrid2.Size = new System.Drawing.Size(1097, 461);
+            this.axEjunTreeGrid2.Size = new System.Drawing.Size(1097, 462);
             this.axEjunTreeGrid2.TabIndex = 2;
             // 
             // tabPage5
@@ -773,7 +773,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage5.Size = new System.Drawing.Size(1103, 468);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "其他费用";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -784,7 +784,7 @@
             this.axEjunTreeGrid3.Location = new System.Drawing.Point(3, 3);
             this.axEjunTreeGrid3.Name = "axEjunTreeGrid3";
             this.axEjunTreeGrid3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axEjunTreeGrid3.OcxState")));
-            this.axEjunTreeGrid3.Size = new System.Drawing.Size(1097, 461);
+            this.axEjunTreeGrid3.Size = new System.Drawing.Size(1097, 462);
             this.axEjunTreeGrid3.TabIndex = 2;
             // 
             // tabPage10
@@ -792,7 +792,7 @@
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1103, 467);
+            this.tabPage10.Size = new System.Drawing.Size(1103, 468);
             this.tabPage10.TabIndex = 6;
             this.tabPage10.Text = "报表输出";
             this.tabPage10.UseVisualStyleBackColor = true;
