@@ -3,3 +3,4 @@ pgbudget/bin/Debug/*
 pgbudget/obj/*
 pgbudget/obj/x86/Debug/*
 pgbudget/obj/x86/Debug/pgbudget.exe
+pgbudget.suo

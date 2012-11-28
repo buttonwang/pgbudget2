@@ -208,7 +208,6 @@ namespace pgbudget
             {
                 fleeForm.ShowDialog();
             }
-            
         }
 
         private void 模板管理ToolStripMenuItem_Click(object sender, EventArgs e)

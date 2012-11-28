@@ -21,14 +21,6 @@ namespace pgbudget
     {
     }
 
-    public partial class deb
-    {
-         System.Nullable<double>  basef
-        {
-            get { return this.dergf + this.dejxf + this.declf; }
-        }
-    }
-
     public partial class desyb : IDictIndex
     {
         string IDictIndex.IndexValue
