@@ -14,10 +14,10 @@
         <elementListCompartment Id="8d6e2c12-f94c-4595-adf5-ca5f6c37e0cd" absoluteBounds="5.2650000000000006, 0.96, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="1d80b16a-ff1e-4b4a-9c57-732e7222a203" isExpanded="false" absoluteBounds="5.25, 1.25, 2, 0.45">
+    <classShape Id="1d80b16a-ff1e-4b4a-9c57-732e7222a203" absoluteBounds="7.75, 2, 2, 4.4368412272135416">
       <DataClassMoniker Name="/PGDataClassesDataContext/deb" />
       <nestedChildShapes>
-        <elementListCompartment Id="1ac64f05-0516-4a7f-906d-d607aad618cc" absoluteBounds="5.2650000000000006, 1.71, 1.9700000000000002, 3.685821533203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="1ac64f05-0516-4a7f-906d-d607aad618cc" absoluteBounds="7.7650000000000006, 2.46, 1.9700000000000002, 3.8768412272135415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="306718b4-1e57-4d7f-9218-73478267563b" isExpanded="false" absoluteBounds="2.875, 0.5, 2, 0.45">
@@ -74,7 +74,7 @@
         <elementListCompartment Id="d8c2dffb-d6a7-497b-b2cb-e9d4663aff03" absoluteBounds="5.265, 7.3350000000000009, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(6.25 : 6.325); (6.25 : 6.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(6.25 : 6.325); (6.25 : 6.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/PGDataClassesDataContext/zjk/zjk_zjk_item" />
       <nodes>
         <classShapeMoniker Id="eea311ca-28d8-495a-a83f-4f0f895f286c" />
@@ -93,10 +93,10 @@
         <elementListCompartment Id="350312cc-82d8-47ce-aebd-cc4ea61273ae" absoluteBounds="7.6400000000000006, 1.085, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="9e5f711e-aaf1-46ef-a700-fb6a8b3b412a" isExpanded="false" absoluteBounds="7.625, 2.5, 2, 0.45">
+    <classShape Id="9e5f711e-aaf1-46ef-a700-fb6a8b3b412a" isExpanded="false" absoluteBounds="7.625, 1.375, 2, 0.45">
       <DataClassMoniker Name="/PGDataClassesDataContext/pgproperty" />
       <nestedChildShapes>
-        <elementListCompartment Id="944bb822-e0b2-44af-8611-2c7d1aa5d216" absoluteBounds="7.64, 2.96, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="944bb822-e0b2-44af-8611-2c7d1aa5d216" absoluteBounds="7.64, 1.835, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

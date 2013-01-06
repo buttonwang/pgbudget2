@@ -48,7 +48,7 @@ namespace pgbudget
                 }
             }
 
-            selectButton.Visible = (mode == 2);
+            selectButton.Visible = (mode == 2);            
         }
 
         private void DictForm_Activated(object sender, EventArgs e)

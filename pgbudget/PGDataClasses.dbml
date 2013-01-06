@@ -66,6 +66,7 @@
       <Column Name="ZMLB" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="ZYID" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="FYWJ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Member="basef" Type="System.Double" CanBeNull="false" />
     </Type>
   </Table>
   <Table Name="dbo.project_drawing" Member="project_drawings">
